@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Conexión de PHP con PostgreSQL usando PDO">
     <meta name="author" content="Odenfis">
-    <title>PostgreSQL-PHP | Por Walter Moncada</title>
+    <title>PostgreSQL-PHP | Por Ana Yelitza</title>
     <!-- Cargar el CSS de Boostrap-->
     <link href="./bootstrap.min.css" rel="stylesheet">
     <!-- Cargar estilos propios -->
@@ -17,7 +17,7 @@
     <!-- Definición del menú -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <a class="navbar-brand" target="_blank" href="https://tecsup.instructure.com/courses/25788">
-        PostgreSQL-PHP | Por Walter Moncada
+        PostgreSQL-PHP | Por Ana Yelitza
         </a>
         <div class="collapse navbar-collapse" id="miNavbar">
             <ul class="navbar-nav mr-auto">
