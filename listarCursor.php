@@ -41,9 +41,9 @@ $sentencia->execute();
 				<?php while ($mascota = $sentencia->fetchObject()){ ?>
 					<tr>
 						<td class="alert alert-primary" role="alert"><?php echo $mascota->id ?></td>
-						<td><?php echo $mascota->nombre ?></td>
+						<td class="alert alert-info" role="alert"><?php echo $mascota->nombre ?></td>
 						<td class="alert alert-primary" role="alert"><?php echo $mascota->edad ?></td>
-						<td><a class="btn btn-warning" href="<?php echo "editar.php?id=" . $mascota->id?>">Editar 📝</a></td>
+						<td class="alert alert-info" role="alert"><a class="btn btn-warning" href="<?php echo "editar.php?id=" . $mascota->id?>">Editar 📝</a></td>
 							<td class="alert alert-primary" role="alert"><a class="btn btn-danger" href="<?php echo "eliminar.php?id=" . $mascota->id?>">Eliminar 🗑️</a></td>
 					</tr>
 				<?php } ?>
